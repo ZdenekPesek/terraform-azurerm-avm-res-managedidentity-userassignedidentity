@@ -113,6 +113,10 @@ Default: `null`
 
 The following outputs are exported:
 
+### <a name="output_client_id"></a> [client\_id](#output\_client\_id)
+
+Description: This is the client id for the user assigned identity.
+
 ### <a name="output_principal_id"></a> [principal\_id](#output\_principal\_id)
 
 Description: This is the principal id for the user assigned identity.

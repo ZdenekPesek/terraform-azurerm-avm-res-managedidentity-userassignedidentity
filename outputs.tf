@@ -3,6 +3,11 @@ output "principal_id" {
   value       = azurerm_user_assigned_identity.this.principal_id
 }
 
+output "client_id" {
+  description = "This is the client id for the user assigned identity."
+  value       = azurerm_user_assigned_identity.this.client_id
+}
+
 output "resource" {
   description = "The object of type User Assigned Identity that was created."
   value       = azurerm_user_assigned_identity.this
